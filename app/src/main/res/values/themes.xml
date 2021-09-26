@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TopReader" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/text</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor"
+            tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionBarSize">0dp</item>
+
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="android:colorControlNormal">?attr/colorPrimary</item>
+        <item name="android:colorControlActivated">?attr/colorPrimary</item>
+        <item name="android:colorControlHighlight">?attr/colorPrimary</item>
+    </style>
+</resources>
